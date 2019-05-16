@@ -29,11 +29,11 @@ public class Bible {
 	public void setContent(String content) {
 		this.content = content;
 	}
-	
+
 	@Override
 	public String toString() {
-		return "Bible [book=" + book + ", chapter=" + chapter + ", verse=" + verse + ", content=" + content + "]";
+		return "Bible => [book=" + book + ", chapter=" + chapter + ", verse=" + verse + ", content=" + content + "]";
 	}
-	
+
 
 }
